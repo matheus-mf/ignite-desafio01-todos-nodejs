@@ -94,8 +94,12 @@ app.patch("/todos/:id/done", checksExistsUserAccount, checksExistsTodo, (request
   return response.json(todo);
 });
 
-app.delete("/todos/:id", checksExistsUserAccount, (request, response) => {
-  // Complete aqui
+app.delete("/todos/:id", checksExistsUserAccount, checksExistsTodo, (request, response) => {
+  const { todo, user } = request;
+  const index = user.todos.indexOf(todo);
+  user.todos.splice(index, 1);
+
+  return response.status(204).send();
 });
 
 module.exports = app;

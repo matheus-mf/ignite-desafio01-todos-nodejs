@@ -12,7 +12,7 @@ inglês todos).
 - [x] Deve ser possível listar todos os _todos_ de um usuário;
 - [x] Deve ser possível alterar os dados de um _todo_;
 - [x] Deve ser possível marca um _todo_ como feito;
-- [ ] Deve ser possível excluir um _todo_.
+- [x] Deve ser possível excluir um _todo_.
 
 ## Regras de negócio
 
