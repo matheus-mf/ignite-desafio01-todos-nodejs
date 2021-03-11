@@ -9,7 +9,7 @@ inglês todos).
 
 - [x] Deve ser possível criar um usuário;
 - [x] Deve ser possível criar um _todo_;
-- [ ] Deve ser possível listar todos os _todos_;
+- [x] Deve ser possível listar todos os _todos_ de um usuário;
 - [ ] Deve ser possível alterar os dados de um _todo_;
 - [ ] Deve ser possível marca um _todo_ como feito;
 - [ ] Deve ser possível excluir um _todo_.
