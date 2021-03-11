@@ -16,5 +16,6 @@ inglês todos).
 
 ## Regras de negócio
 
+- [ ] Não deve ser possível cadastrar um usuário com `username` já existente;
 - [ ] Não deve ser possível criar um _todo_ sem usuário;
 - [ ] Não deve ser possível alterar um _todo_ inexistente;
