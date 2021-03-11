@@ -7,7 +7,7 @@ inglês todos).
 
 ## Requisitos
 
-- [ ] Deve ser possível criar um usuário;
+- [x] Deve ser possível criar um usuário;
 - [ ] Deve ser possível criar um _todo_;
 - [ ] Deve ser possível listar todos os _todos_;
 - [ ] Deve ser possível alterar os dados de um _todo_;
@@ -16,6 +16,6 @@ inglês todos).
 
 ## Regras de negócio
 
-- [ ] Não deve ser possível cadastrar um usuário com `username` já existente;
+- [x] Não deve ser possível cadastrar um usuário com `username` já existente;
 - [ ] Não deve ser possível criar um _todo_ sem usuário;
 - [ ] Não deve ser possível alterar um _todo_ inexistente;
